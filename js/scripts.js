@@ -15,6 +15,9 @@ $(document).ready(function() {
 		$("#dateOutput").text(date);
 		$("#endTimeOutput").text(endTime);
 		$("#startTimeOutput").text(startTime);
+
+    $("p").removeClass();
+    $("form").addClass("confirmation");
   });
 
 });
